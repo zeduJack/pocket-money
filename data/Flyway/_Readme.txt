@@ -1,0 +1,1 @@
+flyway -url="jdbc:postgresql://localhost:5432/pocketmoney" -user="jack" -password="mysecretpassword" -locations="filesystem:/Users/zeljkodujmovic/Workarea/dotnet/MAUI/test/data/Flyway/" migrate
