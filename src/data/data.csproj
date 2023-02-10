@@ -8,8 +8,14 @@
 
   <ItemGroup>
     <None Remove="Flyway\" />
+    <None Remove="Docker\" />
+    <None Remove="Docker\Api\" />
+    <None Remove="Docker\Db\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Flyway\" />
+    <Folder Include="Docker\" />
+    <Folder Include="Docker\Api\" />
+    <Folder Include="Docker\Db\" />
   </ItemGroup>
 </Project>
